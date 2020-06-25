@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="29b9d6cc-042f-45d1-a4a7-b52d12302cbe" name="LO07" url="http://dev-isi.utt.fr">
+        <fileTransfer host="dev-isi.utt.fr" port="22" rootFolder="/home/etu/bergeedo/www/lo07_tp/projet" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,51 @@
+<!-- ----- début fragmentCaveMenu -->
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="router2.php?action=CaveAccueil">BERGE Edouard</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
+                   href="#" role="button">VIN <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="router2.php?action=vinReadAll">Liste des vins</a></li>
+                    <li><a href="router2.php?action=vinReadId&target=vinReadOne">Sélection d'un vin par son id</a></li>
+                    <li><a href="router2.php?action=vinReadId&target=vinDeleted">Suppression d'un vin par ID</a></li>
+                    <li><a href="router2.php?action=vinCreate">Insertion d'un vin</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
+                   href="#" role="button">PRODUCTEUR <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="router2.php?action=viewThemAll">Liste des producteurs</a></li>
+                    <li><a href="router2.php?action=viewThemId&target=viewThemById">Sélection producteur par ID</a></li>
+                    <li><a href="router2.php?action=viewThemId&target=prodDeleted">Suppression producteur par ID</a></li>
+                    <li><a href="router2.php?action=viewThemInsert">Insérer un producteur</a></li>
+                    <li><a href="router2.php?action=viewRegionAll">Liste des régions</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
+                   href="#" role="button">PROJET <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="router2.php?action=viewRecolteAll">Liste des récoltes</a></li>
+                    <li><a href="router2.php?action=viewRecolteId&table=vin&target=viewRecolteByVinId">Sélection récolte par ID vin</a></li>
+                    <li><a href="router2.php?action=viewRecolteId&table=Producteur&target=viewRecolteByProducteurId">Sélection récolte par ID producteur</a></li>
+                    <li><a href="router2.php?action=viewRateId">Noter vin par ID</a></li>
+                    <li><a href="router2.php?action=viewBestProd">Producteurs les mieux notés</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="dropdown-toggle" data-toggle="dropdown"
+                   href="#" role="button">DOCUMENTATION <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="router2.php?action=viewIdea">Idées</a></li>
+                    <li><a href="router2.php?action=viewProjet">Mon Projet</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- ----- fin fragmentCaveMenu -->
